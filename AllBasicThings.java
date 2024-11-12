@@ -24,7 +24,7 @@ public class AllBasicThings {
         newArray[3] =22;
         // --------------------------------------------
         // int[] newArray = {1,2,4,5};
-        System.out.println("the number at array 1 is: "+ newArrey[1]);
+        System.out.println("the number at array 1 is: "+ newArray[1]);
         // System.err.println("\n");
 //----------------------------------------------------------------
         bmw blueCar = new bmw("bruh");
