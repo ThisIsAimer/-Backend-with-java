@@ -17,14 +17,14 @@ public class AllBasicThings {
         // input.close();
         // done
 //-------------------------------------------------------------------------
-        int newArrey[] = new int[5];
-        newArrey[0] = 1;
-        newArrey[1] =22;
-        newArrey[2] =22;
-        newArrey[3] =22;
+        int newArray[] = new int[5];
+        newArray[0] = 1;
+        newArray[1] =22;
+        newArray[2] =22;
+        newArray[3] =22;
         // --------------------------------------------
-        // int[] newArrey = {1,2,4,5};
-        System.out.println("the number at arrey 1 is: "+ newArrey[1]);
+        // int[] newArray = {1,2,4,5};
+        System.out.println("the number at array 1 is: "+ newArrey[1]);
         // System.err.println("\n");
 //----------------------------------------------------------------
         bmw blueCar = new bmw("bruh");
