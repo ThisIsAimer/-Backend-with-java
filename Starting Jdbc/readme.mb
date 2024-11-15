@@ -1,0 +1,17 @@
+steps in JDBC with postgresql
+
+1) import: import java.sql.*;
+2)load drivers: Class.forName("org.postgresql.Driver");(not necessary)
+3)register drivers: Connection con = DriverManager.getConnection(url, userName, pass);
+4)create connection and create statement: Statement st = con.createStatement();
+5)execute a statement: ResultSet result = st.executeQuery(write the syntax for sql);
+6)close the loaded driver
+7)check if you did everything correctly
+
+for prepared statement
+
+4)Write url with (?,?,?) as parameters
+5)PreparedStatement st = con.prepareStatement(provide the url)
+6)use st.setInt(1, s_id); st.setString(2, s_name); st.setInt(3, s_marks); to change the ? with the parameters.
+7)boolean status = st.execute(); to execute
+8)close the loaded driver
