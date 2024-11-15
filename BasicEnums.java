@@ -21,7 +21,6 @@ enum Status{
 
 public class BasicEnums {
     public static void main(String[] args) {
-        int i = 10;
         Status myStatus = Status.relationship;
         Status broStatus = Status.oneSided;
         Status allStatus[] = Status.values();
